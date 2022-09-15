@@ -17,3 +17,5 @@ print(f"Парт надо закупить {bc1}")
 bc2 = (ceil(c1 / 2)) + (ceil(c2 / 2)) + (ceil(c3 / 2))
 
 print(f"Парт надо закупить: {bc2}")
+
+print("Hello")
