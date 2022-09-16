@@ -6,7 +6,7 @@ number = float(input("Введите положительное действит
 
 number = number - floor(number)
 
-#number = round(number, 2)
+number = round(number, 2)
 
 print(number)
 
