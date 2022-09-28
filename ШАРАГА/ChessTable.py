@@ -7,7 +7,7 @@ cell_line2 = int(input("Введите номер строки второй кл
 
 if (cell_line1 + cell_column1) % 2 == 0:
     colour_1 = 1
-elif (cell_line + cell_column1) % 2 == 1:
+elif (cell_line1 + cell_column1) % 2 == 1:
     colour_1 = 0
 
 if (cell_line2 + cell_column2) % 2 == 0:
