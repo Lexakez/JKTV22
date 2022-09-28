@@ -92,3 +92,29 @@
 day = int(input("Введите день своего рождения: "))
 month = int(input("Введите месяц своего рождения: "))
 
+if month == 1 and day in range(20, 31) or month == 2 and day in range(1, 18):
+    print("Водолей")
+elif month == 2 and day in range(19, 28) or month == 3 and day in range(1, 20):
+    print("Рыбы")
+elif month == 3 and day in range(21, 31) or month == 4 and day in range(1, 19):
+    print("Овен")
+elif month == 4 and day in range(20, 30) or month == 5 and day in range(1, 20):
+    print("Телец")
+elif month == 5 and day in range(21, 31) or month == 6 and day in range(1, 21):
+    print("Близнецы")
+elif month == 6 and day in range(22, 30) or month == 7 and day in range(1, 23):
+    print("Рак")
+elif month == 7 and day in range(24, 31) or month == 8 and day in range(1, 22):
+    print("Лев")
+elif month == 8 and day in range(23, 31) or month == 9 and day in range(1, 22):
+    print("Дева")
+elif month == 9 and day in range(23, 30) or month == 10 and day in range(1, 22):
+    print("Весы")
+elif month == 10 and day in range(23, 31) or month == 11 and day in range(1, 22):
+    print("Скорпион")
+elif month == 11 and day in range(23, 30) or month == 12 and day in range(1, 21):
+    print("Стрелец")
+elif month == 12 and day in range(22, 31) or month == 1 and day in range(1, 19):
+    print("Козерог")
+    
+
