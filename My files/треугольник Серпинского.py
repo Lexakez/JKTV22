@@ -30,6 +30,5 @@ while test:
     iterations += 1
     text = font.render(f"Количество итераций: {iterations}", True, (0, 255, 0))
     window.blit(text, (0, 0))
-    print(iterations)
     pygame.display.update()
 pygame.quit()
