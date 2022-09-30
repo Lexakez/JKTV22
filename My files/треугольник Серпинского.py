@@ -4,8 +4,11 @@ from random import randint
 pygame.init()
 window = pygame.display.set_mode((1900, 1000))
 
+iterations = 0
+font = pygame.font.SysFont('arial', 20)
+
 test = True
-A, B, C = (900, 0), (300, 1000), (1500, 1000)
+A, B, C = (900, 100), (300, 900), (1500, 900)
 top_list = [A, B, C]
 start_point = A
 point_list = []
@@ -24,5 +27,9 @@ while test:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             test = False
+    iterations += 1
+    text = font.render(f"Количество итераций: {iterations}", True, (0, 255, 0))
+    window.blit(text, (0, 0))
+    print(iterations)
     pygame.display.update()
 pygame.quit()
