@@ -15,10 +15,7 @@ while test:
     for top in top_list:
         pygame.draw.circle(window, (0, 255, 0), top, 2)
     end_point = top_list[randint(0, 2)]
-    end_point = (
-        (end_point[0] + start_point[0]) / 2,
-        (end_point[1] + start_point[1]) / 2,
-    )
+    end_point = ((end_point[0] + start_point[0]) / 2,(end_point[1] + start_point[1]) / 2,)
     end_point += ((randint(0, 255), randint(0, 255), randint(0, 255)),)
     point_list.append(end_point)
     start_point = end_point
