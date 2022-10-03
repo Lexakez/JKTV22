@@ -21,6 +21,7 @@ energy = 200
 color1 = 0
 color = 0
 
+fps = 60
 while run:
     window.fill((0, 0, 0))
 
