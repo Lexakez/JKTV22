@@ -32,7 +32,7 @@ while test:
 
 
 
-    pygame.time.delay(50)
+    # pygame.time.delay()
 
     pygame.display.update()
 
