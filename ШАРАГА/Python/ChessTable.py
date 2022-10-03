@@ -21,3 +21,8 @@ if colour_1 == colour_2:
     print("YES")
 else:
     print("NO")
+    
+    
+    
+    
+    
