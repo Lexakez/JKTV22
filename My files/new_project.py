@@ -118,6 +118,6 @@ while run:
     text = font.render("ENERGY", True, (230, 200, 155))
     window.blit(text, (60, 10))
 
-    print(energy)
+    # print(energy)
     pygame.display.update()
 pygame.quit()
