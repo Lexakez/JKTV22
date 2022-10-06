@@ -1,3 +1,5 @@
+from random import randint
+
 '''
 Задача №1
 '''
@@ -22,13 +24,13 @@
 Задача №3
 '''
 
-num = int(input(":"))
-stepen = 2
-chislo_stepeni = 1
-while stepen <= num:
-    stepen *= 2
-    chislo_stepeni += 1
-    print(f"2 ** {chislo_stepeni - 1}, = {stepen // 2}")
+# num = int(input(":"))
+# stepen = 2
+# chislo_stepeni = 1
+# while stepen <= num:
+#     stepen *= 2
+#     chislo_stepeni += 1
+# print(f"2 ** {chislo_stepeni - 1}, = {stepen // 2}")
 
 '''
 Задача №4
@@ -36,7 +38,46 @@ while stepen <= num:
 
 # km = int(input("Введите количество км за первый день: "))
 # km_vcelom = int(input("Введите пробег спортсмена за все дни: "))
-# den = 0
-# while km + km * 0.1 < km_vcelom:
+# den = 1
+# while km < km_vcelom:
+#     km *= 1.1
 #     den += 1
-#     print(den)
+# print(f"Он пробежит {km_vcelom} километров на: {den} дней")
+
+'''
+Задача №5
+'''
+
+# vklad = int(input("Введите сумму вклада: "))
+# protsent = int(input("Введите процент вклада: "))
+# summa = int(input("Введите конечную сумму: "))
+# year = 0
+# while vklad < summa:
+#     vklad += vklad * protsent / 100
+#     year += 1
+# print(f"Вам надо ждать {year} лет/год(а)")
+
+'''
+Задача №6
+'''
+
+# chislo = 0
+# number = 1
+# while number != 0:
+#     number = randint(0, 100)
+#     print(number)
+#     chislo += 1
+# print(f"Кол-во чисел в последовательности: {chislo - 1}")
+
+'''
+Задача №7 
+'''
+
+chislo = 0
+number = 1
+while number != 0:
+    number = randint(0, 100)
+    print(number)
+    chislo += number
+print(f"Сумма последовательности: {chislo}")
+
