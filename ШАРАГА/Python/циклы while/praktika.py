@@ -73,11 +73,60 @@ from random import randint
 Задача №7 
 '''
 
+# chislo = 0
+# number = 1
+# while number != 0:
+#     number = randint(0, 100)
+#     print(number)
+#     chislo += number
+# print(f"Сумма последовательности: {chislo}")
+
+'''
+Задача №8
+'''
+
+# chislo = 0
+# number = 1
+# srednie = 0
+# naibolshee = 0
+# while number != 0:
+#     number = randint(0, 100)
+#     print(number)
+#     srednie += number
+#     chislo += 1
+#     if number > naibolshee:
+#         naibolshee = number
+# print(f"Наибольшее число последовательности: {naibolshee}")
+# print(f"Средние значение последовательности: {round((srednie / chislo), 0)}")
+
+'''
+Задача №9
+'''
+
+# chislo = 0
+# number = 1
+# index = 0
+# amount = 0
+# while number != 0:
+#     number = randint(0, 100)
+#     print(number)
+#     amount += 1
+#     if number > chislo:
+#         chislo = number
+#         index = amount
+# print(f"Наибольшее число: {chislo} его индекc: {index}")
+
+'''
+Задача №10
+'''
+
 chislo = 0
 number = 1
-while number != 0:
+naibolshee = 0
+while number != 0 and chislo < 20:
     number = randint(0, 100)
     print(number)
-    chislo += number
-print(f"Сумма последовательности: {chislo}")
-
+    chislo += 1
+    if naibolshee < number:
+        naibolshee = number
+print(f"Наибольшее число: {naibolshee} \nКол-во чисел: {chislo}")
