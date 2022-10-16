@@ -6,7 +6,7 @@ from time import sleep
 
 
 config = {
-    'token': 'MTAyOTc2MzU1MjQwMTE2MjMwMA.GdnVnf.y5EXB296zMu1ysIAzyfBYID8GKPtGS97tjK4rA',
+    'token': 'MTAyOTc2MzU1MjQwMTE2MjMwMA.Gx6d7N.oAvkGOFgsd2QrD0QKbhn_zpvZMumCwjvlx4Tqk',
     'prefix': '!',
 }
 
