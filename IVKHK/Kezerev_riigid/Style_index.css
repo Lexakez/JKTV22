@@ -10,6 +10,7 @@ body {
     background: gainsboro;
     font-family: Arial;
     font-size: 22px;
+    border-radius: 10px;
 }
 table {
     background-color: rgba(128, 128, 128, 0.7);
@@ -26,11 +27,13 @@ table {
     width: 220px;
     height: 120px;
     border: 10px outset gray;
+    border-radius: 10px;
 }
 
 .tablica {
     border-left: outset 10px gray;
     border-right: outset 10px gray;
+    border-radius: 10px;
 }
 
 .text {
@@ -40,4 +43,11 @@ table {
     border-left: outset 10px gray;
     border-right: outset 10px gray;
     background: rgba(128, 128, 128, 0.9);
+}
+
+.button {
+    border: 10px outset gray;
+    background: gainsboro;
+    color: white;
+    text-decoration: none;
 }
