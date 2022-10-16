@@ -1,0 +1,80 @@
+.sqlka {
+    font-size: 300;
+    background-color: aliceblue;
+    width: 100px;
+    margin-left: 30px;
+    border: outset 10px gray;
+    font-weight: 900;
+    padding: 10px;
+}
+body {
+    background-size: 1920px 1080px;
+    background-attachment: fixed;
+    background-image: url(images/flag-germaniya-gerb.jpg);
+}
+
+h1 {
+    border-top: solid black 10px;
+    border-bottom: solid yellow 10px;
+    border-left: solid red 10px;
+    border-right: solid red 10px;
+    margin: 20px auto;
+    font-size: 100px;
+    width: 470px;
+    padding-left: 30px;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+    background: rgba(128, 128, 128, 0.5);
+}
+
+h2 {
+    background: rgba(128, 128, 128, 0.5);
+    border-top: solid black 10px;
+    border-bottom: solid yellow 10px;
+    border-left: solid red 10px;
+    border-right: solid red 10px;
+    font-size: 40px;
+    width: 470px;
+    padding-left: 30px;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+    margin:20px auto;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin:20px auto;
+    background: rgba(128, 128, 128, 0.5);
+    border-top: solid black 10px;
+    border-bottom: solid yellow 10px;
+    border-left: solid red 10px;
+    border-right: solid red 10px;
+    width: 470px;
+    padding-left: 30px;
+    color: white;
+    text-shadow: 5px 5px 10px black; 
+}
+
+.kartinka{
+    margin: 30px auto;
+    text-align: center;
+}
+
+.kartino4ka {
+    margin: 0 auto;
+    border-top: solid black 10px;
+    border-bottom: solid yellow 10px;
+    border-left: solid red 10px;
+    border-right: solid red 10px;
+    height: 500px;
+}
+
+.text {
+    margin: 0 auto;
+    font-size: 18px;
+    background: rgba(232, 219, 219, 0.9);
+    margin-right: 400px;
+    margin-left: 400px;
+    border: solid black 3px;
+}

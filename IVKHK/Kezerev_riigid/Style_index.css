@@ -1,0 +1,43 @@
+body {
+    background-image: url(images/k_306.jpg);
+}
+
+
+.stranq {
+    color: white;
+    text-shadow: 0px 0px 4px black;
+    border: 10px outset gray;
+    background: gainsboro;
+    font-family: Arial;
+    font-size: 22px;
+}
+table {
+    background-color: rgba(128, 128, 128, 0.7);
+    margin: 100px auto;
+}
+.zagolovok {
+    background: gainsboro;
+    margin: 0 auto;
+    width: 250px;
+    border: 10px outset gray;
+}
+
+.kartino4ki {
+    width: 220px;
+    height: 120px;
+    border: 10px outset gray;
+}
+
+.tablica {
+    border-left: outset 10px gray;
+    border-right: outset 10px gray;
+}
+
+.text {
+    font-size: 17px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    border-left: outset 10px gray;
+    border-right: outset 10px gray;
+    background: rgba(128, 128, 128, 0.9);
+}
