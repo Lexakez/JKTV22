@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tittle>JavaScript IF-ELSE</tittle>
+        <meta charset = "UTF-8">
+    </head>
+    <body>
+        <h1>JavaScript IF-ELSE</h1>
+        <h2>Простая математика - сложение</h2>
+        <script>
+            var number1, number2, summa, answerUser;
+
+            number1 = parseInt(Math.random() * 11);
+            number2 = parseInt(Math.random() * 11);
+            summa = number1 + number2;
+
+            answerUser = prompt('Посчитай! \n' + number1 + ' + ' + number2 + ' = ? ');
+
+            if (summa == answerUser) {
+                var text = number1 + ' + ' + number2 + ' = ' + summa + ' Молодец ! <br>';
+            }
+            else{
+                var text = number1 + ' + ' + number2 + ' = ' + answerUser + '(<span style = "color: red"> '+ summa +' </span>) Неверный ответ'; 
+            }
+            document.write(text);
+        </script>
+    </body>
+</html>
