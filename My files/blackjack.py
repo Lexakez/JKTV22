@@ -1,8 +1,6 @@
 from random import *
 from time import sleep
 
-win = False
-
 run = True
 
 ruka = []
@@ -56,13 +54,20 @@ def summa_kart (ruka: list) -> int:
                 continue
             kart_sum += 11
         if kart_sum > 21 and tuz >= 1:
+            tuz -= 1
             kart_sum -= 10
     tuz = 0
     return kart_sum
 
 while run:
+    koloda = koloda_1
+    krup_sum = 0
+    kart_sum = 0
+    ruka.clear()
+    krup.clear()
+    win = False
+
     if balance > 0:
-        koloda = koloda_1
         shuffle(koloda)
         print(f"У вас на счету: {balance}$")
         stavka = abs(int(input("Введите ставку: ")))
@@ -94,7 +99,6 @@ while run:
                 balance += stavka * 2.5
                 continue
 
-
 # Раздача карт крупье
 
             krup.append(koloda[-1])
@@ -121,32 +125,36 @@ while run:
                         print("---===Победа===---")
                         balance += stavka * 2
                         win = True
+                        nabor = False
                     if kart_sum > 21:
                         print("---===Вы проиграли===---")
-                        nabor = False
                         win = True
+                        nabor = False
                 else:
                     nabor = False
 
 # Набор карт крупье
-
-            nab_krup = True
-            while nab_krup:
-                krup_sum = summa_krup(krup)
-                print("-" * 10)
-                print(f"У крупье карты: {krup_txt}")
-                print(f"Сумма карт крупье: {krup_sum}")
-                sleep(1)
-                if krup_sum == 21:
-                    print("---===Вы проиграли===---")
-                    win = True
-                    nab_krup = False
-                elif krup_sum <= 16:
-                    krup.append(koloda[-1])
-                    krup_txt += " и " + koloda[-1]
-                    koloda.pop(-1)
-                elif krup_sum >= 17:
-                    nab_krup = False
+            if win != True:
+                nab_krup = True
+                while nab_krup:
+                    krup_sum = summa_krup(krup)
+                    print("-" * 10)
+                    print(f"У крупье карты: {krup_txt}")
+                    print(f"Сумма карт крупье: {krup_sum}")
+                    sleep(1)
+                    if krup_sum == 21:
+                        print("---===Вы проиграли===---")
+                        win = True
+                        nab_krup = False
+                    elif krup_sum <= 16:
+                        krup.append(koloda[-1])
+                        krup_txt += " и " + koloda[-1]
+                        koloda.pop(-1)
+                    elif krup_sum >= 17:
+                        nab_krup = False
+                    if krup_sum > 21:
+                        print("---===Победа===---")
+                        win = True
 
 # Сравнение карт крупье и игрока
 
@@ -161,11 +169,6 @@ while run:
                 else:
                     print("---===Победа===---")
                     balance += stavka * 2
-            koloda = koloda_1
-            krup_sum = 0
-            kart_sum = 0
-            ruka.clear()
-            krup.clear()
     else:
         print("Деньги кончились.")
         run = False
