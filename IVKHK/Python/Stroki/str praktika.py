@@ -1,5 +1,5 @@
 from math import *
-from turtle import st
+
 '''
 Задача 1
 '''
