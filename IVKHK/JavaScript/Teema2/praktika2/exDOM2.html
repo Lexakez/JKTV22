@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS innerHTML - добавить текст, счетчик</title>
+        <meta charset="utf-8">
+        <style>
+            .content{width: 30%; height: 50px;}
+            .intro{width: 80%; border: 1px solid red;}
+            .btnClick{float: left; margin-right: 5px;}
+            .btnVisible{display: none;}
+            .clear{clear: both;}
+            footer{margin-top: 100px; text-align: center;}
+        </style>
+    </head>
+    <body>
+        <h2>JS innerHTML - добавить текст, счетчик</h2>
+        <h3>Обьекты DIV</h3>
+        <div id="content" class="content">
+            content by DIV 
+        </div>
+        <div id="intro" class="intro">
+            Hello World!
+        </div>
+        <p>Counter: <span id="counter">0</span></p>
+        <hr>
+        <button onclick="myColor();" id="myButton1" class="btnClick">Color</button>
+        <button onclick="myText();" id="myButton2" class="btnClick">Text</button>
+        <button onclick="myCounter();" id="myButton3" class="btnClick">Counter</button>
+        <button onclick="functionRefresh();" id="myShow" class="btnVisible">Page refresh</button>
+        <div class="clear"></div>
+        <footer>JKTV22 Kezerev</footer>
+        <script>
+            function myColor(){
+                var element = document.getElementById('content');
+                if(element.style.backgroundColor == 'yellow'){
+                    element.style.backgroundColor = 'green'
+                }
+                else{
+                    element.style.backgroundColor = 'yellow';
+                }
+            }
+            function myText(){
+                var text = document.getElementById('intro').innerHTML;
+                text += 'Привет мир!'
+                document.getElementById('intro').innerHTML = text;
+            }
+            function myCounter(){
+                var k = 0
+                k = document.getElementById('counter').innerHTML;
+                k ++
+                document.getElementById('counter').innerHTML = k;
+                if(k >= 5){
+                    myButton3.setAttribute('disabled', false);
+                    document.getElementById('myShow').style.display = 'block';
+                }
+            }
+            function functionRefresh(){
+                document.getElementById('myButton3').disabled = false;
+                document.getElementById('myShow').style.display = 'none';
+                document.getElementById('counter').innerHTML = 0;
+                document.getElementById('intro').innerHTML = 'Hello world!';
+            }
+        </script>
+    </body>
+</html>
