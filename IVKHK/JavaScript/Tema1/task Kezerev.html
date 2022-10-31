@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Задание1</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script >
+            document.write('<h2>Пример вывода без цикла</h2>');
+            document.write('Число: <b>0</b>');
+            document.write('<br />');
+            document.write('Число: <b>10</b>');
+            document.write('<br />');
+            document.write('Число: <b>20</b>');
+            document.write('<br />');
+            document.write('Число: <b>40</b>');
+            document.write('<br />');
+            document.write('Число: <b>50</b>');
+            document.write('<br />');
+            document.write('Число: <b>60</b>');
+            document.write('<br />');
+            document.write('Число: <b>80</b>');
+            document.write('<br />');
+            document.write('Число: <b>100</b>');
+            document.write('<br />');
+
+            document.write('<hr />');
+            document.write('<h2>Пример вывода, используя цикл WHILE </h2>');
+
+            //..............Решение
+
+            var count = 0;
+            var summa = 0;
+            while(count <= 7){
+                document.write('<br> Число: <b>' + summa +'</b>');
+                if(summa == 20 || summa == 60 || summa == 80){
+                    summa += 20;
+                }
+                else{
+                    summa += 10;
+                }
+                count += 1;
+            }     
+        </script>
+        <footer><h2>JKTV22 Kezerev</h2></footer> 
+
+    </body>
+</html>

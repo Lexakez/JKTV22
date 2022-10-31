@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tittle>Пример Javascript Message- alert, prompt, confirm</tittle>
+        <meta charset = "UTF-8">
+    </head>
+
+    <body>
+        <h1>Пример JavaScript - Вывод данных</h1>
+    </body>
+    <script>
+        // Вывод на страницу
+        document.write("Hello, world! - Простой вывод");
+
+        //Message alert
+        alert('Hello, world!');
+
+        var answer; //Ответ пользователя
+
+        //AND Логическое if умножение - &&
+        //Or или сложение - ||
+
+        answer = prompt('Введите ваше любимое число');
+            if (answer == null || answer == ''){
+                // Выбрана кнопка Cancel или ответ не введен и выбрано ОК
+                document.write('<br> Числа нет!');
+            }
+
+            else if (answer == 1121) {
+                document.write('');
+            }
+            
+            else{//Выбрана кнопка ОК
+                document.write('<br> Ваше любимое число - '+ answer);
+            }
+
+        // сообщения confirm
+
+        var answerUser = confirm('Вы хотите перейти по ссылке? \n Выберите OK- если Да или Cancel- если Нет');
+            if (answerUser && answer != 1121){//OK
+                document.write('<br> Ссылка: <a href = "https://moodle.edu.ee/my/">Ссылка</a>');
+            }
+            else if (answerUser && answer == 1121) {
+                document.write('<br> Ссылка: <a href = "https://github.com"> Ссылочка </a>');
+                
+            }
+
+            else {//cancel
+                document.write('<br>Спасибо, ссылки нет');
+            }
+
+
+
+    </script>
+</html>

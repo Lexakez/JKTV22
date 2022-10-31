@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Таблица умножения</title>
+        <meta = charset="utf-8">
+    </head>
+    <body>
+        <script>
+            var counter = 0;
+            var point = 0;
+            var restart = true;
+            var mnoz = 0
+            document.write('<h1>Спасибо за участие</h1>')
+            while(restart){
+                var choice = prompt('Выберите сколько вопросов вы хотите: ');
+                var level = confirm('Хотите повысить уровень сложности?');
+                if(level == true){
+                    mnoz = 101
+                }
+                else{
+                    mnoz = 11
+                }
+                while(counter != choice){
+                    var num1 = parseInt(Math.random() * mnoz);
+                    var num2 = parseInt(Math.random() * mnoz);
+                    counter ++;
+                    var answer = prompt('Посчитай!! \n '+ num1 +'*'+ num2 +'= ?')                
+                    var otvet = num1 * num2;
+                    if(answer == otvet){
+                        point ++;
+                        alert('Правильно!!! \n Количество баллов: ' + point);
+                    }
+                    else{
+                        alert('Не правильно \n Иди учи математику.');
+                    }
+                    document.write('<h3>' + num1 +' * '+ num2 + ' = ' + answer + '</h3>');
+                }
+                restart = confirm('У вас: ' + point + '/' + choice + '\n Хотите попробовать еще?');
+                counter = 0;
+                if(restart == false){
+                    document.write('<h2>У вас: ' + point + ' баллов </h2>')
+                }
+            }
+        </script>
+        <footer>JKTV22 Kezerv / Tverskaja</footer>
+    </body>
+</html>

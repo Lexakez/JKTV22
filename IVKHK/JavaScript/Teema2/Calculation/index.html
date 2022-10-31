@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Калькулятор</title>
+        <meta charset="utf-8">
+        <script src="calc.js"></script>
+    </head>
+    <body>
+        <h2>Калькулятор</h2>
+        <div style="width: 500px;">
+            <form name="myForm">
+                Number1
+                <input type="number" name="t1" size="5" min="0" max="200"><br>
+                Number2
+                <input type="number" name="t2" size="5" min="0" max="200"><br>
+                <input type="button" name="send" value="*" onClick="multi();">
+                <input type="button" name="send" value="+" onClick="summa();">
+                <input type="button" name="send" value="-" onClick="subtract();">
+                <input type="button" name="send" value="/" onClick="division();">
+                <br>
+                <hr>
+                Result
+                <input type="text" name="result" size="5" readonly><br>
+            </form>
+            
+        </div>
+        <footer><h4>JKTV22 Kezerev</h4></footer>
+    </body>
+</html>

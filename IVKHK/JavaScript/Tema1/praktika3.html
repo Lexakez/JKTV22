@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> JavaScript FOR, WHILE</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>JavaScript - FOR, WHILE - циклы</h1>
+        <h2>Сумма натуральных чисел 1-N</h2>
+        <script>
+            document.write('<h3>Цикл FOR</h3>');
+            var count = prompt('Сумма чисел от 1 до... \n Введите число');
+            var summa = 0;
+            for(var i = 1; i <= count; i ++){
+                summa = summa + i;
+                document.write('<br>' + (i) + '.Промежуточная сумма - '+ summa);
+            }
+            document.write('<br> FOR - Итого сумма чисел 1 -' + count + 'Равна' + summa);
+// ---------------------------------------------------------------------------------------------------------------
+            document.write('<h3>Цикл WHILE</h3>');
+            var counter = 1;
+            summa = 0;
+            while(counter <= count){
+                summa += counter;
+                document.write('<br>' + (counter) + '. Промежуточная сумма -'+ summa);
+                counter ++;              
+            }
+            document.write('<br>WHILE - сумма чисел 1-' + count + 'равна' + summa);
+        </script>
+    </body>
+</html>
