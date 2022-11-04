@@ -45,7 +45,14 @@ footer{
     width: 875px;
     height: 130px;
     border: 1px solid red;
-    float:left
+    float:left;
+    background-color: blue;
+}
+li{
+    color: rgb(0, 0, 163);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 10px;
 }
 article{
     width: 415px;
@@ -54,17 +61,74 @@ article{
     float: left;
     margin: 10px;
 }
+.background_gradient{
+    margin: 0;
+    color: white;
+    text-align: center;
+    background: linear-gradient(white, rgb(0, 0, 163), red);
+}
 .main_text{
     text-align: center;
     color: rgb(0, 0, 112);
-    font-size: 29px;
+    font-size: 19px;
+    letter-spacing: 3px;
     margin: 0 auto;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .div_text_top{
     border: 1px solid black;
     width: 700px;
     height: 180px;
-    margin: 0 auto
+    float: left;
+    margin-left: 100px;
+}
+.div_dlja_divov_right{
+    width: 200px;
+    height: 80px;
+    margin-right: 60px;
+    margin-top: 30px;
+    float: right;
+    position: relative;
+}
+.kartino4ka_tittle{
+    width: 44px;
+    height: 64px;
+    border: 5px white solid;
+    border-radius: 40px;
+}
+.div_kartino4ki{
+    border: 4px inset rgb(91, 189, 255);
+    border-radius: 45px;
+    text-align: center;
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-left: 16px;
+    box-shadow: 2px 2px 3px gray;
+}
+.div_kartino4ki_right{
+    border: 4px inset rgb(91, 189, 255);
+    border-radius: 45px;
+    text-align: center;
+    width: 75px;
+    height: 75px;
+    float: right;
+    margin-left: 16px;
+    box-shadow: 2px 2px 3px gray;
+}
+.kartino4ka_tittle_right{
+    width: 60px;
+    border: 5px white solid;
+    border-radius: 41px;
+}
+.div_dlja_divov{
+    width: 200px;
+    height: 80px;
+    margin-left: 60px;
+    margin-top: 30px;
+    float: left;
+    position: relative;
 }
 .div_tittle{
     font-family: Arial, Helvetica, sans-serif;
@@ -75,6 +139,8 @@ article{
     text-transform: uppercase;
     color:red;
     font-weight: lighter;
+    letter-spacing: 10px;
+    word-spacing: 190px;
     text-shadow:-0   -2px 0   #2A0072,
     0   -2px 0   #2A0072,
    -0    2px 0   #2A0072,
