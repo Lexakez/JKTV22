@@ -2,51 +2,52 @@ header{
     float: left;
     width: 1380px;
     height: 180px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 main{
     float:left;
     margin: auto;
     width: 875px;
-    height: 600px;
-    border: 1px solid green;
+    height: 630px;
+    /* border: 1px solid green; */
 }
 .aside_right{
     float: right;
-    width: 315px;
-    height: 600px;
-    border: 1px solid blue;
+    width: 300px;
+    height: 630px;
+    /* border: 1px solid blue; */
 }
 .aside_left{
+    margin-top: 50px;
     float: left;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 182px;
-    height: 600px;
+    height: 630px;
 }
 .wrapper{
     margin: 0 auto;
     width: 1380px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 900px;
 }
 footer{
     width: 1380px;
     height:90px;
-    border: 1px solid rgb(25, 108, 3);
+    /* border: 1px solid rgb(25, 108, 3); */
     float: left
 }
 .main_section_up{
     width: 875px;
     height: 60px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     float: left;
 }
 .main_section_down{
     width: 875px;
     height: 130px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     float:left;
-    background-color: blue;
+    background-color: rgb(0, 0, 161);
 }
 li{
     color: rgb(0, 0, 163);
@@ -57,7 +58,7 @@ li{
 article{
     width: 415px;
     height: 180px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     float: left;
     margin: 10px;
 }
@@ -77,7 +78,7 @@ article{
     font-family: Arial, Helvetica, sans-serif;
 }
 .div_text_top{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 700px;
     height: 180px;
     float: left;
@@ -130,6 +131,46 @@ article{
     float: left;
     position: relative;
 }
+.text_kartinka{
+    width: 25px;
+    float: left;
+    margin: 5px;
+}
+.text_section{
+    background-color: aliceblue;
+    margin: 27px 10px;
+    color: rgb(0, 0, 161);
+    font-size: 17px;
+}
+.footer_text{
+    color: rgb(0, 0, 109);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+}
+.aside_right_h{
+    color:rgb(0, 0, 114);
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.news{
+    /* border: 1px red solid; */
+    width: 290px;
+    margin: 0px;
+    height: 280px;
+    color:rgb(0, 0, 175);
+}
+.news_heading{
+    background-color: rgb(0, 0, 175);
+    color: white;
+    text-align: center;
+}
+.news_text{
+    text-align: justify;
+}
+
 .div_tittle{
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 65px;
