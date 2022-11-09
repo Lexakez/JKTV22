@@ -19,16 +19,34 @@ main{
     height: 1960px;
     border: solid black 1px;
 }
+.logo_txt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    font-weight: 400;
+    text-shadow: 3px 3px 4px black;
+    color: white;
+    position: relative;
+    top: 24px;
+    right: 5px;
+    margin: 0;
+}
 .heading{
     left: 450px;
     top: 20px;
     position: relative;
     border-radius: 10px;
-    width: 400px;
+    width: 450px;
     height: 108px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.534);
     box-shadow: 1px 23px 35px 0px rgba(0,0,0,0.75);
+}
+.image{
+    left: 4px;
+    position: relative;
+    top: 4px;
+    height: 100px;
+    float: left;
 }
 header{
     /* border: 1px solid black; */
@@ -36,6 +54,33 @@ header{
     width: 1380px;
     height: 200px;
     border-radius: 50px 20px 20px 50px;
+}
+.navigation{
+    margin-top: 10px;
+}
+.nav_button{
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid rgb(113, 18, 250);
+    border-radius: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 2px;
+    width: 190px;
+    background-color: white;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition: 0.6s;
+    color: rgb(113, 18, 250)
+}
+.nav_button:hover{
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(113, 18, 250);
 }
 .button{
     float: left;
@@ -49,7 +94,7 @@ header{
 .button:hover{
     border-radius: 50px;
     width: 250px;
-    box-shadow: 190px 0px 107px -95px rgba(255, 81, 119, 0.75) inset;
+    box-shadow: 190px 0px 107px -95px rgba(255, 255, 255, 0.473) inset;
 }   
 .button:hover span:after{
     opacity: 1;
