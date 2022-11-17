@@ -1,7 +1,6 @@
 .wrapper{
     width: 1380px;
     margin: 0 auto;
-    border: 1px solid black;
     overflow: hidden;
 }
 body{
@@ -38,10 +37,67 @@ main{
     box-shadow: 1px 23px 35px 0px rgba(0,0,0,0.75);
 }
 header{
+    box-shadow: 5px 7px 4px -2px rgba(0, 0, 0, 0.34);
     background-color: rgb(40, 150, 206);
     width: 1380px;
     height: 200px;
     border-radius: 50px 20px 20px 50px;
+}
+.main_section{
+    box-shadow: 5px 7px 4px -2px rgba(0, 0, 0, 0.34);
+    border-radius: 10px;
+    background: rgba(40, 150, 206, 0.377);
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.main_article{
+    /* box-shadow: 5px 7px 4px -2px rgba(0, 0, 0, 0.34) inset; */
+    border-radius: 10px;
+    margin: 0;
+    /* background: white; */
+    text-align: center;
+}
+.main_article span{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: white;
+    /* color: rgb(40, 150, 206); */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+.main_section p{
+    box-shadow: 5px 7px 4px -2px rgba(0, 0, 0, 0.34) inset;
+    border-radius: 10px;
+    background: white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+.table_div{
+    box-shadow: 5px 7px 4px -2px rgba(0, 0, 0, 0.34) inset;
+    border-radius: 10px;
+    background: white;
+    padding: 10px;
+    margin: 10px;
+}
+.table_right span{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table_right td{
+    border-bottom: rgb(40, 150, 206) ridge 2px;
+}
+.table_right{
+    width: 100%;
+}
+.image_right{
+    text-align: center;
+}
+td{
+    vertical-align: top;
 }
 .aside_right{
     box-shadow: 5px 7px 4px -2px rgba(0, 0, 0, 0.34);
@@ -60,10 +116,11 @@ header{
     margin-bottom: 10px;
 }
 .nav_button{
+    box-shadow: 5px 7px 4px -2px rgba(0, 0, 0, 0.34);
     font-weight: 700;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 2px solid rgb(40, 150, 206);
-    border-radius: 0;
+    border-radius: ;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 15px;
@@ -84,6 +141,7 @@ header{
     background-color: rgb(40, 150, 206);
 }
 .button{
+    border-radius: 20px;
     float: left;
     width: 100px;
     height: 200px;
