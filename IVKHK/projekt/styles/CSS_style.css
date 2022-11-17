@@ -1,23 +1,30 @@
 .wrapper{
     width: 1380px;
-    /* border: 1px solid red; */
     margin: 0 auto;
-    height: 2160px;
+    border: 1px solid black;
+    overflow: hidden;
 }
 body{
+    background: rgba(40, 150, 206, 0.377);
     margin: 0;
 }
 .aside_left{
+    box-shadow: 5px 7px 4px -2px rgba(0, 0, 0, 0.34);
+    margin-top: 10px;
+    background: rgba(40, 150, 206, 0.377);
     width: 200px;
-    border: 1px solid black;
     float: left;
-    height: 1000px;
+    border-radius: 10px;
 }
 main{
+    box-shadow: 5px 7px 4px -2px rgba(0, 0, 0, 0.34);
+    margin-top: 10px;
+    border-radius: 10px;
     float: left;
     width: 850px;
-    height: 1960px;
-    border: solid black 1px;
+    background: rgba(40, 150, 206, 0.377);
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 .heading{
     left: 450px;
@@ -36,11 +43,21 @@ header{
     height: 200px;
     border-radius: 50px 20px 20px 50px;
 }
+.aside_right{
+    box-shadow: 5px 7px 4px -2px rgba(0, 0, 0, 0.34);
+    margin-top: 10px;
+    background: rgba(40, 150, 206, 0.377);
+    float: right;
+    border-radius: 10px;
+    width: 310px;
+
+}
 .image{
     height: 108px;
 }
 .navigation{
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .nav_button{
     font-weight: 700;
@@ -49,9 +66,9 @@ header{
     border-radius: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: 5px;
-    margin-left: 2px;
-    width: 190px;
+    margin-top: 15px;
+    margin-left: 12px;
+    width: 170px;
     background-color: white;
     color: white;
     text-align: center;
