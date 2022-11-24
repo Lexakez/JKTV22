@@ -1,0 +1,96 @@
+.wrapper {
+    margin: 0 auto;
+    height: 3000px;
+    width: 1500px;
+    background: rgb(120, 120, 255);
+}
+
+body {
+    margin: 0;
+}
+
+.button{
+    /* background-color: beige; */
+    height: 20px;
+    width: 0px;
+    margin: 20px;
+    padding: 2px;
+    transition: 0.3s;
+}
+
+.button:hover{
+    width: 100px;
+    border-right: solid 4px black;
+    box-shadow: 10px 1px 3px -3px rgba(34, 60, 80, 0.58);
+}
+
+h1 {
+    width: 280px;
+    border: black 1px solid;
+    margin: 0 auto;
+    font-size: 40px;
+}
+
+.main_section {
+    width: 1000px;
+    background-color: aquamarine;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.input {
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    background-color: blanchedalmond;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 10;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.forms {
+    margin: 0 auto;
+    width: 500px;
+    border: 1px black dotted;
+    background: violet;
+    padding: 20px;
+}
+
+.main_section p,li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    background-color: violet;
+}
+
+main {
+    bottom: 1000px;
+    left: 203px;
+    float: left;
+    height: 100%;
+    width: 1100px;
+    background-color: beige;
+}
+
+.aside_left {
+    margin-right: 50px;
+    width: 300px;
+    height: 100%;
+    background-color: rgb(211, 171, 249);
+    float: left;
+}
+
+header {
+    width: 100%;
+    margin: 0;
+    height: 100px;
+    background-color: aqua;
+}
+
