@@ -22,6 +22,27 @@ $movies = array (
                 'name' => 'Jared Joseph Leto',
                 'photo' => 'Leto.png')
         )
-    )
+    ),
+    '' => array(
+        'tittle' => '',
+        'director' => '',
+        'year' => '',
+        'country' => '',
+        'description' => '',
+        'photo' => '',
+        'actors' => array(
+            array (
+                'name' => '',
+                'photo' => ''),
+            array (
+                'name' => '',
+                'photo' => ''),
+            array (
+                'name' => '',
+                'photo' => ''),
+            array (
+                'name' => '',
+                'photo' => '')
+        )
 );
 ?>
