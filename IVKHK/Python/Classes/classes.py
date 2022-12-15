@@ -20,3 +20,11 @@ class Person:
         elif kood[0] == str(4) or kood[0] == str(6):
             print("Пол: Женщина")
         print(f"Дата рождения: {kood[5: 7]}.{kood[3: 5]}.{kood[1: 3]}")
+
+class Employee(Person):
+    def __init__(self, name, code, company):
+        Person.__init__(self, name, code)
+        self.company = company
+    def printInfo(self):
+        Person.printInfo(self)
+        print("firma: ", self.company)
