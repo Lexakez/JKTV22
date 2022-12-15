@@ -59,3 +59,10 @@ h1{
     margin: 30px 45px;
     background-color: rgb(167, 206, 204);
 }
+textarea{
+    width: 375px;
+    height: 140px;
+    border-radius:30px;
+    background-color: rgb(167, 206, 204);
+    box-shadow: 3px 3px 3px rgb(255, 9, 9);
+}

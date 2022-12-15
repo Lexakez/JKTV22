@@ -22,10 +22,38 @@
                         <span>Ваш адре электронной <br>почты:</span><input class="input_mail" type="text" name="mail" value="">
                     </div>
                     <div class="div_name">
-                        <span>Ваш пол:</span><input type="radio" name="sex_choice" value="1"><span>Женский</span><input type="radio" name="sex_choice" value="2"><span>Мужской</span>
+                        <span>Ваш пол:</span>
+                        <input type="radio" name="sex_choice" value="1"><span>Женский</span>
+                        <input type="radio" name="sex_choice" value="2"><span>Мужской</span>
                     </div>
                     <div class="div_name">
                         <span>Укажите ваш возраст</span><input class="input_number" type="number" name="age" value="16" min="16" max="99">
+                    </div>
+                    <div class="div_name">
+                        <span>Ваш уровень владения компьютером:</span>
+                        <ul style="list-style-type:none; padding: 0;"> 
+                            <li><input type="radio" name="PC_choice" value="1"><span>Начальный</span>
+                            <li><input type="radio" name="PC_choice" value="2"><span>Средний</span>
+                            <li><input type="radio" name="PC_choice" value="3"><span>Профессиональный</span>
+                            <li><input type="radio" name="PC_choice" value="4"><span>Не владею</span>
+                        </ul>
+                    </div>
+                    <div class="div_name">
+                        <span>Откуда о нас узнали?</span>
+                        <select name="choice" id="choice">
+                            <option value="Internet">Интернет</option>
+                            <option value="Pechat">Печатные издания</option>
+                            <option value="Sovet">Посоветовали знакомые</option>
+                            <option value="TV">Телевидение</option>
+                        </select>
+                    </div>
+                    <div class="div_name">
+                        <span>Дополнительная информация</span>
+                        <textarea id="text" name="textarea"></textarea>
+                    </div>
+                    <div class="div_name">
+                        <span>Дата подписки</span>
+                        <input type="date">
                     </div>
                 </form>
             </div>

@@ -1,7 +1,8 @@
 class Product:
-    def __init__(self, name, code):
-        self.__name = name
-        self.__price = code
+    def __init__(self):
+        self.__name = ''
+        self.__price = ''
+
     '''Установка имени'''
     @property
     
