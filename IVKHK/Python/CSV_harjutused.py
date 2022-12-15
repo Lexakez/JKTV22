@@ -1,4 +1,5 @@
 import csv
+from math import *
 
 rows = int(input("Введите количество строк: "))
 
@@ -18,12 +19,11 @@ with open("points.csv", "w", newline="") as file:
     dictwriter.writerows(numbers)
 with open("points.csv", "r", newline="") as file:
     reader = csv.DictReader(file)
-    pointlist=[]
-    point = ()
+    points = []
     for row in reader:
-        x = row["x"]
-        y = row["y"]
-        pointlist.append(point(row["x"],row["y"]))
-        # print(rows["x"], "-", rows["y"])
-
-
+        points.append((int(row["x"]),int(row["y"])))
+    suma = 0
+    for point in range(len(points) - 1):
+        suma += sqrt((points[point][0] - points[point + 1][0]) ** 2 + (points[point][1] - points[point + 1][1]) ** 2)
+    
+    print(suma)
