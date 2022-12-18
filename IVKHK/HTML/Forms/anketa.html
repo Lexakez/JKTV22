@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Анкета </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="styles/anketa_style.css">
+    </head>
+    <body>
+        <main>
+            <div class="form_div">
+                <form name="anketa" action="" method="get">
+                    <h1>АНКЕТА ПОСЕТИТЕЛЯ РЕСТОРАНА</h1>
+                    <div class="main_div">
+                        <h2>Контактные данные</h2>
+                        <ul>
+                            <li><label>Имя<input class="first_div" type="text" name="name" value="Введите Ваше имя"></label></li>
+                            <li><label>Фамилия<input class="first_div" type="text" name="family" value="Введите Вашу Фамилию"></label></li>
+                            <li><label>E-mail<input class="first_div" style="background: rgb(241, 111, 111);" type="text" name="mail" value="Введите Ваш электронный адресс"></label></li>
+                            <li><label>Телефон<input class="first_div" type="text" name="telephone" value="Введите Ваш мобильный телефон"></label></li>
+                        </ul>
+                    </div>
+                    <div class="main_div info">
+                        <h2>Персональная информация</h2>
+                        <ul>
+                            <li>
+                                <label>Ваш пол:
+                                    <input class="radio_button" type="radio" name="sexchoice" value="1">Женский
+                                    <input class="radio_button" type="radio" name="sexchoice" value="2">Мужчина
+                                </label>
+                            </li>
+                            <li>
+                                <label>Возраст: <input class="age" type="text" name="age"></label>
+                            </li>
+                            <li>
+                                <label>Ваш любимый цвет?<input type="color" name="color"></label>
+                            </li>
+                            <li>
+                                <label>Любимая кухня
+                                    <select name="kitchen">
+                                        <option>Выберите из списка</option>
+                                        <option value="1">Русская</option>
+                                        <option value="2">Японская</option>
+                                        <option value="3">Северо корейская</option>
+                                    </select>
+                                </label>
+                            </li>
+                            <li>
+                                <label>Какие блюда Вы хотели бы видеть в меню?
+                                    <textarea type="textarea" name="dish">Напишите свои предпочтения</textarea>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main_div rate">
+                        <h2>Оценка нашего заведения</h2>
+                        <ul>
+                            <li>
+                                <label>Дата и время посещения
+                                    <input class="date_rate" type="text" name="date" value="mm/dd/yyyy">
+                                </label>
+                            </li>
+                            <li>
+                                <label>Почему Вы выбрали наше заведение?
+                                    <ul class="rate_choice">
+                                        <li><input type="radio" name="rate_choice" value="1"><span>Недалеко от дома/работы</span></li>
+                                        <li><input type="radio" name="rate_choice" value="2"><span>Увидел рекламу</span></li>
+                                        <li><input type="radio" name="rate_choice" value="3"><span>Посоветовали</span></li>
+                                        <li><input type="radio" name="rate_choice" value="4"><span>Соотношение цены и качества</span></li>
+                                    </ul>    
+                                </label>
+                            </li>
+                            <li>
+                                <label>Как Вы оцениваете наше заведение? (по 5-ти балльной системе)
+                                    <span>0</span><input type="range" min="0" max="5" step="1" value="0" list="rangeList"><span>5</span>
+                                    <datalist id="rangeList">
+                                        <option value="0" label="0">
+                                        <option value="1" label="1">
+                                        <option value="2" label="2">
+                                        <option value="3" label="3">
+                                        <option value="4" label="4">
+                                        <option value="5" label="5">
+                                    </datalist>
+                                </label>
+                            </li>
+                            <li>
+                                <label>Вы будете рекомендовать наше заведение своим знакомым?
+                                    <ul class="rate_choice">
+                                        <li><input type="radio" name="yes_no" value="1"><span>Да</span></li>
+                                        <li><input type="radio" name="yes_no" value="2"><span>Нет</span></li>
+                                    </ul>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main_div date">
+                        <h2>Дата заполнения анкеты</h2>
+                        <ul>
+                            <li>
+                                <label>Выберите дату
+                                    <input type="date">
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="button_div">
+                        <input class="button" type="submit" value="Отправить">
+                        <input class="button" type="reset" value="Отчистить">
+                    </div>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>
