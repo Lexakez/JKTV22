@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Animals</title>
+        <script src="js/jquery-3.6.1.js"></script>
+        <style>
+            .left{
+                width:25%;
+                float:left;
+            }
+            .right{
+                width:60%;
+                margin:25%;
+                min-height:500px;
+                text-align:center;
+            }
+            .list{
+                float: left;
+                width:30%;
+                border: solid 1px green;
+                padding:5px;
+            }
+            .img{
+                margin:5px;
+                max-width: 100%;
+                height: auto;
+            }
+            .detail{
+                text-align: left;
+            }
+            .detaillink{
+                text-align:right;
+            }
+            footer{
+                border-top:1px solid gray;
+                height: 100px;
+                margin: 0px;
+            }
+            .footer{
+                font-family:'sans-serif';
+                text-align:center;
+                padding-top:25px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2><a href="index.html">Animals project</a></h2>
+        <div>
+            <div class="left">
+                <h2>Выбери категорию</h2>
+                <ul id="menu"></ul>
+            </div>
+            <div class="right" id="content">
+                <img src="images/animals.jpg">
+            </div>
+        </div>
+        <footer>
+            <p class="footer">Project Animals 2022 Kezerev JS - JQuery &copy;</p>
+        </footer>
+        <script src="js/massiv.js"></script>
+        <script src="js/myScript.js"></script>
+    </body>
+</html>
