@@ -1,0 +1,30 @@
+header{
+    border: 1px solid black;
+    width: 900px;
+    margin: 0 auto;
+    background-image: url("../images/stiks.png");
+    background-size: 900px;
+    background-repeat: no-repeat;
+}
+
+h1{
+    background-color: rgba(240, 255, 255, 0.409);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+.header_kartinki{
+    box-shadow:1px 1px 0px 6px rgba(171,27,27,1), 1px 1px 0px 12px rgb(208, 33, 33),1px 1px 0px 18px rgb(255, 44, 44)  ;
+    margin-left: 70px;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+h2{
+    background-color: rgba(240, 255, 255, 0.409);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
