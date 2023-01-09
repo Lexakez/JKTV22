@@ -1,30 +1,71 @@
-header{
-    border: 1px solid black;
+body{
+    background-color: rgb(244,88,49);
+}
+header {
     width: 900px;
     margin: 0 auto;
-    background-image: url("../images/stiks.png");
+    background-image: url("images/Stiks.png");
     background-size: 900px;
     background-repeat: no-repeat;
 }
-
+.bg-color{
+    background-color: rgb(60, 31, 24);
+    box-shadow: -2px 12px 25px 4px rgba(0,0,0,0.53);
+}
 h1{
     background-color: rgba(240, 255, 255, 0.409);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 10px;
     font-size: 70px;
     text-align: center;
 }
 
 .header_kartinki{
+    z-index: 2;
+    top: 0;
+    position: relative;
     box-shadow:1px 1px 0px 6px rgba(171,27,27,1), 1px 1px 0px 12px rgb(208, 33, 33),1px 1px 0px 18px rgb(255, 44, 44)  ;
     margin-left: 70px;
     overflow: hidden;
     height: 200px;
     width: 200px;
+    transition: all 0.5;
     border-radius: 100px;
+}
+.header_kartinki:active{
+    top: -190px;
+}
+.pashalka{
+    margin-left: 70px;
+    border-radius: 100px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
 }
 
 h2{
     background-color: rgba(240, 255, 255, 0.409);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'EB Garamond', serif;
     text-align: center;
+}
+
+.description{
+    border: 10px solid rgba(0, 0, 0, 0.144);
+    background-color: rgba(240, 255, 255, 0.44);
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+p{
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+}
+ul{
+    font-size: 17px;
+    font-family: 'EB Garamond', serif;
+}
+li{
+    list-style-image: url('images/penta_li.png');
 }
