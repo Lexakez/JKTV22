@@ -1,5 +1,13 @@
 body{
-    background-color: rgb(244,88,49);
+    background-image: url("images/Infernal_circles.png");
+    background-size: 100%;
+    background-attachment: fixed;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.wrapper{
+    background-color: rgba(244, 88, 49, 0.829);
 }
 
 header {
@@ -16,6 +24,7 @@ header {
 }
 
 h1{
+    margin-top: 0;
     background-color: rgba(240, 255, 255, 0.409);
     font-family: 'EB Garamond', serif;
     letter-spacing: 10px;
@@ -51,7 +60,7 @@ h1{
 
 h2{
     background-color: rgba(240, 255, 255, 0.409);
-    font-family: 'EB Garamond', serif;
+    font-family: 'EB w', serif;
     text-align: center;
 }
 
@@ -89,7 +98,7 @@ h3{
 }
 
 .second_circle {
-    box-shadow:1px 1px 0px 18px rgb(255, 44, 44)  ;
+    box-shadow:1px 1px 15px 18px rgb(255, 44, 44)  ;
     background-color: rgb(116, 57, 42);;
     width: 900px;
     margin: 0 auto;
@@ -114,8 +123,8 @@ h3{
 }
 
 .second_circle p{
+    padding: 10px;
     font-size: 24px;
     font-family: 'EB Garamond', serif;  
-    padding: 10px;
     background: rgba(240, 255, 255, 0.409)
 }
