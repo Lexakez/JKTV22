@@ -2,8 +2,11 @@ body{
     background-image: url("images/Infernal_circles.png");
     background-size: 100%;
     background-attachment: fixed;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
+}
+
+main{
+    padding-bottom: 210px;
 }
 
 .wrapper{
@@ -41,13 +44,16 @@ h1{
     overflow: hidden;
     height: 200px;
     width: 200px;
-    transition: all 0.5;
+    transition: 0.5s;
     border-radius: 100px;
+    opacity: 1;
 }
 
-.header_kartinki:active{
+.header_kartinki:active {
     top: -190px;
+
 }
+
 
 .pashalka{
     margin-left: 70px;
@@ -108,11 +114,34 @@ h3{
 }
 
 .second_kartinka{
+    z-index: 2;
+    position: relative;
     border-radius: 10px;
     box-shadow: 3px 3px 10px black;
     width: 150px;
     margin: 10px;
     float: left;
+    right: 0;
+    transition: 0.5s;
+}
+
+.second_kartinka:active{
+    right: -340px;
+}
+
+.second_pashalka{
+    border-radius: 100%;
+    width: 320px;
+    margin-top: 10px;
+    overflow: hidden;
+    margin-left: -400px;
+    position: absolute;
+    z-index: 1;
+}
+
+.shark{
+    width: 170px;
+    margin-left: -280px;
 }
 
 .minos{
@@ -127,4 +156,84 @@ h3{
     font-size: 24px;
     font-family: 'EB Garamond', serif;  
     background: rgba(240, 255, 255, 0.409)
+}
+
+.butterfly{
+    padding: 10px;
+    width: 420px;
+    margin: auto;
+    margin-top: 175px;
+    margin-bottom: 175px;
+}
+
+.div_for_lucifers{
+    background: radial-gradient(circle, rgba(255,44,44,1) 15%, rgba(116,57,42,1) 82%);
+    border: 5px outset rgb(255, 44, 44);
+    border-radius: 100%;
+    box-shadow: inset 1px 1px 15px 10px, inset 1px 1px 15px 15px rgb(255, 44, 44), inset 1px 1px 15px 20px rgb(244, 88, 49);
+    width: 790px;
+    height: 790px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.lucifer_1{
+    width: 200px;
+    height: 200px;
+    border-radius: 0 100% 0 100%;
+    overflow: hidden;
+    border: 2px groove black;
+}
+
+.lucifer_2{
+    width: 200px;
+    height: 200px;
+    border-radius: 100% 0 100% 0;
+    overflow: hidden;
+    border: 2px groove black;
+}
+
+.lucifer_3{
+    width: 200px;
+    height: 200px;
+    border-radius: 100% 0 100% 0;
+    overflow: hidden;
+    border: 2px groove black;
+}
+
+.lucifer_4{
+    width: 200px;
+    height: 200px;
+    border-radius: 0 100% 0 100%;
+    overflow: hidden;
+    border: 2px groove black;
+}
+
+.hell_picture{
+    margin-left: 100px;
+    width: 150px;
+    transform: rotate(30deg);
+    -webkit-box-reflect: below 0px linear-gradient(to top, rgba(0,0,0,0.0), rgba(22, 22, 22, 0.685));
+}
+
+.div_for_hell{
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.anchor{
+    bottom: 10px;
+    right: 10px;
+    width: 155px;
+    position: fixed;
+}
+
+.penta_anchor_up{
+    width: 150px;
+    transform: rotate(105deg)
+}
+
+.penta_anchor_down{
+    width: 150px;
 }
