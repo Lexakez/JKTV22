@@ -1,6 +1,15 @@
 body{
-    background-color: rgb(244,88,49);
+    background-image: url("images/Infernal_circles.png");
+    background-size: 100%;
+    background-attachment: fixed;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
+.wrapper{
+    background-color: rgba(244, 88, 49, 0.829);
+}
+
 header {
     width: 900px;
     margin: 0 auto;
@@ -8,11 +17,14 @@ header {
     background-size: 900px;
     background-repeat: no-repeat;
 }
+
 .bg-color{
     background-color: rgb(60, 31, 24);
     box-shadow: -2px 12px 25px 4px rgba(0,0,0,0.53);
 }
+
 h1{
+    margin-top: 0;
     background-color: rgba(240, 255, 255, 0.409);
     font-family: 'EB Garamond', serif;
     letter-spacing: 10px;
@@ -32,9 +44,11 @@ h1{
     transition: all 0.5;
     border-radius: 100px;
 }
+
 .header_kartinki:active{
     top: -190px;
 }
+
 .pashalka{
     margin-left: 70px;
     border-radius: 100px;
@@ -46,7 +60,7 @@ h1{
 
 h2{
     background-color: rgba(240, 255, 255, 0.409);
-    font-family: 'EB Garamond', serif;
+    font-family: 'EB w', serif;
     text-align: center;
 }
 
@@ -58,14 +72,59 @@ h2{
     padding: 20px;
     margin-top: 20px;
 }
+
 p{
     font-size: 20px;
     font-family: 'EB Garamond', serif;
 }
+
 ul{
     font-size: 17px;
     font-family: 'EB Garamond', serif;
 }
+
 li{
+    margin-top: 10px;
     list-style-image: url('images/penta_li.png');
+}
+
+h3{
+    font-family: 'EB Garamond', serif;    
+    font-size: 30px;
+    text-align: left;
+    padding: 5px;
+    padding-left: 10px;
+    background: rgba(240, 255, 255, 0.409)
+}
+
+.second_circle {
+    box-shadow:1px 1px 15px 18px rgb(255, 44, 44)  ;
+    background-color: rgb(116, 57, 42);;
+    width: 900px;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.second_kartinka{
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+    width: 150px;
+    margin: 10px;
+    float: left;
+}
+
+.minos{
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+    float: right;
+}
+
+.second_circle p{
+    padding: 10px;
+    font-size: 24px;
+    font-family: 'EB Garamond', serif;  
+    background: rgba(240, 255, 255, 0.409)
 }
