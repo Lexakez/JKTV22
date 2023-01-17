@@ -1,5 +1,5 @@
 from tkinter import *
-import ttk
+from tkinter import ttk
 import csv
 
 root = Tk()
@@ -53,11 +53,7 @@ class Koolitused:
             writer.writeheader()
             writer.writerows(self.students)
 
-        
-
 koolitused = Koolitused()
-
-
 
 root.title("Form")
 root.geometry("500x500")
@@ -202,16 +198,16 @@ def draw():
         padx = 10
     )
     students_count_label.grid(
-    row = 9,
-    column = 0,
-    sticky = "w",
-    padx = 10
+        row = 9,
+        column = 0,
+        sticky = "w",
+        padx = 10
     )
     btnSalvesta.grid(
-    row = 8,
-    column = 0,
-    sticky = "w",
-    padx = 10
+        row = 8,
+        column = 0,
+        sticky = "w",
+        padx = 10
     )
 
 draw()
