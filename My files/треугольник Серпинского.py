@@ -8,7 +8,7 @@ iterations = 0
 font = pygame.font.SysFont('arial', 20)
 
 test = True
-A, B, C = (900, 100), (300, 900), (1500, 900)
+A, B, C = (900, 100), (300, 900), (1500, 900)  
 top_list = [A, B, C]
 start_point = A
 point_list = []
