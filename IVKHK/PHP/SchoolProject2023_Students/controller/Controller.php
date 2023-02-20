@@ -22,6 +22,12 @@ class Controller {
         include_once('view/studentlist.php');
         return;
     }
+    public static function StudentDetail($id){
+        $specialityList = Model::getSpecialityList();
+        $student = Model::getStudentDetail($id);
+        include_once('view/studentdetail.php');
+        return;
+    }
 }//END CLASS
 ?>
 

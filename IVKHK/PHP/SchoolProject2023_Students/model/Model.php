@@ -25,9 +25,14 @@ class Model {
     }
     public static function getStudentListByspec($id){
         $sql = "SELECT speciality.nameSpec, student.* FROM `speciality`,`student` WHERE speciality.id = student.specid AND speciality.id = $id ORDER BY student.firstName ASC";
-
         $db = new database();
         $item = $db->getAll($sql);
+        return $item;
+    }
+    public static function getStudentDetail($id){
+        $query = "SELECT speciality.nameSpec, student.* FROM `speciality`,`student` WHERE speciality.id=student.specid AND student.id=".$id;
+        $db = new database();
+        $item = $db->getOne($query);
         return $item;
     }
 	

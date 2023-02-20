@@ -20,6 +20,9 @@ elseif ($route == 'students') {
 elseif ($route == 'studByspec' && isset($_GET['id'])){
 	Controller::StudentByspec($_GET['id']);
 }
+elseif ($route == 'student' && isset($_GET['id'])){
+	Controller::StudentDetail($_GET['id']);
+}
 else{
 	Controller::error404();
 }
