@@ -1,0 +1,128 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    /* padding-left: 100px; */
+    padding-left: 6.9%;
+    /* padding-right: 100px; */
+    padding-right: 6.9%;
+}
+
+.wrapper{
+    border: 1px solid black;
+    /* padding-left: 100px; */
+    padding-left: 6.9%;
+    /* padding-top: 60px; */
+    padding-top: 4.1667%;
+    /* padding-bottom: 60px; */
+    padding-bottom: 4.166%;
+    /* padding-right: 100px; */
+    padding-right: 6.9%;
+    height: 1024px;
+    width: 75%;
+    /* width: 1440px; */
+    margin: auto;
+}
+
+.navigation{
+    background-color: rgb(228, 228, 228);
+    width: 35.1%;
+    height: 35px;
+    margin-top:-75px;
+    margin-bottom: 75px;
+    margin-left: 400px;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.nav_text{
+    margin-right: 55px;
+    width: 30.63%;
+    height: 35px;
+    left: 683px;
+    top: 110px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.header_text{
+    width: 83%;
+    height: 55px;
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 20px;
+    background: #D9D9D9;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+h1{
+    height: 39px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    color: #000000;
+    margin: 0;
+}
+
+.main_article{
+    text-align: center;
+    margin:auto;
+    margin-top: 20px;
+    /* width: 400px; */
+    width: 27.7777%;
+    background: #D9D9D9;
+}
+
+.main_div{
+    padding-left: 20px;
+    width: 88.3%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.main_div h2{
+    margin: 0;
+}
+
+.main_text_box{
+    float: left;
+    background: #D9D9D9;
+    width: 31.9442%;
+    height: 255px;
+    margin-right: 1.39%;
+    margin-top: 1.39%;
+}
+.main_text_box h2{
+    margin:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 27px;
+}
+.main_text_box p{
+    font-size: 20px;
+    margin: 20px;
+}
+.main_section p{
+    margin: 0;
+}
+footer span{
+    font-size: 25px;
+    margin-left: 255px;
+}
+
+footer{
+    margin: auto;
+    width: 87.2%;
+    margin-top: 20px;
+    background-color: #D9D9D9;
+}
