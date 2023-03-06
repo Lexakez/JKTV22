@@ -1,12 +1,13 @@
-<?php
-    ob_start()
-?>
-<h2>404 ошибка</h2>
-<article>
-    <h3>404 ошибка - страница не найдена</h3>
-</article>
+<?php 
+	ob_start();
+	
+ ?>
+ 
+	<div class="container text-center"  style="width:80%; ">
+		<img src="images/404.png" >    
+	</div> 
 
-<?php
-    $content = ob_get_clean();
-    include "view/templates/layout.php";
-    
+<?php 
+	$content = ob_get_clean(); 
+	include "view/templates/layout.php";
+?>

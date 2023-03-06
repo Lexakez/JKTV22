@@ -1,33 +1,37 @@
 <?php
-/* проверка URL адреса и перенаправление в
- * соответствующую функцию контроллера: 
- * startSite - hotels, error404
- */
- //прочитаем и разделим адрес по символу '?' - до знака ?
-$host=explode('?',$_SERVER['REQUEST_URI'])[0];
-//посчитаем символы /, т.е. сколько вложений папок от корня сервера
-$num= substr_count($host, '/');
-//возьмем последний текст после символа -это и есть маршрут
-$path=explode('/',$host)[$num];
-//---------------------------------
-if($path=='' || $path=='index.php'){
-    //start page
-    Controller::startSite();
+/*URI унифицированный идентификатор ресурса, 
+	который был предоставлен для доступа к странице
+знак ? отделяет полный путь и значение 
+	переменной идентификатора для фильтрации
+*/
+//полный путь к проекту до знака ?
+$path = explode('?', $_SERVER['REQUEST_URI'])[0];
+//количество папок вложений - считаем символы "/"
+$num = substr_count($path, '/');
+//вычисляем маршрут после последнего символа "/"
+$route = explode('/', $path)[$num];
+//значение переменной - идентификатора фильтрации - после знака ?
+if($route == '' OR $route == 'index.php'){
+	Controller::StartSite();
 }
-elseif($path=='contact'){
-    Controller::contactView();
+elseif ($route == 'students') {
+	Controller::StudentList();
+}
+elseif ($route == 'studByspec' && isset($_GET['id'])){
+	Controller::StudentByspec($_GET['id']);
+}
+elseif ($route == 'student' && isset($_GET['id'])){
+	Controller::StudentDetail($_GET['id']);
+}
+elseif ($route == 'blog') {
+	Controller::PostList();
+}
+elseif ($route == 'posts' && isset($_GET['id']) ) {
+	controller::PostDetail($_GET['id']);
+}
+elseif ($route == 'cal' && isset($_GET['id'])) {
+	Controller::Calendar($_GET['id']);
 }
 else{
-    Controller::error404();
+	Controller::error404();
 }
-
-
-
-
-
-
-
-
-
-
-
