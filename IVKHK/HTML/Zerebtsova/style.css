@@ -1,0 +1,150 @@
+
+.main_wrapper{
+     width:1440px;
+     height:1024px;
+     box-shadow: 1px 5px 5px;
+     margin: auto;
+     position: relative;
+}
+
+header{
+    width:1440px;
+    height: 190px;
+    border:1px solid rgba(255, 255, 255, 0);
+}
+
+.logo{
+    margin-top:74px;
+    margin-left: 96px;
+    height: 82px;
+    width: 190px;
+    float:left;
+}
+
+.menu_wrapper{
+    margin-left:568px;
+    margin-top: 99px;
+    height:29px;
+}
+
+.menu_text_block{
+    float:left;
+    margin-left: 100px;
+}
+
+.menu_text_block p{
+    margin:0px;
+}
+
+.menu_text{
+    font-family:Arial;
+    font-size: 20px;
+    font-weight: 700;
+}
+.slogan_text_block{
+    /* border:1px solid dimgrey; */
+    position: absolute;
+    height: 92px;
+    width: 924px;
+    left: 209px;
+    top: 194px;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.ourprograms_block{
+    left: 584px;
+    top: 270px;
+    position: absolute;
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.contentblocks_wrapper{
+    position: absolute;
+    /* background-color: grey; */
+    height: 464px;
+    /* width: 1248px; */
+    width:86.6%;
+    left: 96px;
+    top: 360px;
+    border-radius: 0px;
+    margin: auto;
+    overflow:hidden;
+     padding-left: 20px;
+}
+
+.content_block{
+     float: left;
+     width: 384px;
+     width:30.769230769230769230769230769231%;
+     height: 214px;
+     /* margin-right: 20px; */
+     margin-right: 1.6025641025641025641025641025641%;
+     margin-top: 1.6025641025641025641025641025641%;
+     background-color: #ecebeb;
+}
+
+.titles_text{
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-left:10px;
+}
+
+.content_text{
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left:10px;
+
+}
+
+footer{
+    position: absolute;
+    background-color: grey;
+    height: 132px;
+    width: 1344px;
+    left: 48px;
+    top: 864px;
+}
+
+.adres_block{
+    position: absolute;
+    height: 34px;
+    width: 168px;
+    left: 204px;
+    top: 33px;
+}
+
+.mobile_block{
+    position: absolute;
+    width: 168px;
+    height: 34px;
+    left: 637px;
+    top: 33px;
+}
+
+.email_block{
+    position: absolute;
+    width: 168px;
+    height: 37px;
+    left: 1070px;
+    top: 33px;
+}
