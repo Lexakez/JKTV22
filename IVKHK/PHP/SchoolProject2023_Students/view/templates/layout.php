@@ -23,13 +23,28 @@
 				  <a href="students"  class="nav-link">Students</a>			  
 				  <a href="blog"  class="nav-link">Blog</a>			  
 			  </div>
-			  <form class="d-flex">
-				  <input placeholder="search" type="text" class="me-sm-2 form-control">
-				  <button type="button" class="btn btn-outline-success">Search</button>
+			  <form class="d-flex" method="GET" action="search">
+				  <input placeholder="search" type="text" name="text" class="me-sm-2 form-control">
+				  <button type="submit" class="btn btn-outline-success">Search</button>
 			  </form>
 			  <div class="me-auto navbar-nav">
-				  <a href="login"  class="nav-link">Login</a>
-				  <a href="register"  class="nav-link">Register</a>	
+				<?php
+				if(!isset($_SESSION['userId'])){
+					?>
+				  		<a href="login"  class="nav-link">Login</a>
+				  		<a href="register"  class="nav-link">Register</a>
+					<?php } elseif (isset($_SESSION['userId'])) {
+					?>
+						<div class="dropdown ms-5">
+							<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+								<?php echo $_SESSION['name'] ?>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<li><a class="dropdown-item" href="logout">Log out</a></li>
+								<li><a class="dropdown-item" href="profile">Profile</a></li>
+							</ul>
+						</div>
+					<?php } ?>	
 			  </div>
 		  </div>
 	  </div>

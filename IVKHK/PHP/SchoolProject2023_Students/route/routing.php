@@ -32,6 +32,61 @@ elseif ($route == 'posts' && isset($_GET['id']) ) {
 elseif ($route == 'cal' && isset($_GET['id'])) {
 	Controller::Calendar($_GET['id']);
 }
+elseif ($route == 'search') {
+	if (isset($_GET['text'])) {
+		Controller::textSearch($_GET['text']);
+	} else {
+		Controller::error404();
+	}
+}
+elseif ($route == 'login') {
+	controllerUser::loginForm();
+}
+elseif ($route == 'loginResult'){
+	controllerUser::loginResult();
+}
+elseif ($route == 'logout'){
+	controllerUser::logoutAction();
+}
+elseif ($route == 'register') {
+	controllerUser::registerForm();
+}
+elseif ($route == 'registerResult'){
+	controllerUser::registerResult();
+}
+elseif ($route == 'profile') {
+	controllerUser::profileForm();
+}
+elseif ($route == 'profileResult') {
+	controllerUser::profileResult();
+}
+elseif ($route == 'addstudent'){
+	controllerStudent::addStudentForm();
+}
+elseif ($route == 'addstudentResult'){
+	controllerStudent::addStudentResult();
+}
+elseif ($route == 'result'){
+	controllerStudent::viewResult();
+}
+elseif ($route == 'editstudent' && isset($_GET['id'])) {
+	controllerStudent::editStudentForm($_GET['id']);
+}
+elseif ($route == 'editstudentResult' && isset($_GET['id'])) {
+	controllerStudent::editStudentResult($_GET['id']);
+}
+elseif ($route == 'deletestudent' && isset($_GET['id'])) {
+	controllerStudent::deleteStudentForm($_GET['id']);
+}
+elseif ($route == 'deletestudentResult' && isset($_GET['id'])) {
+	controllerStudent::deleteStudentResult($_GET['id']);
+}
+elseif ($route == 'deletestudent' && isset($_GET['id'])) {
+	controllerStudent::deleteStudentForm($_GET['id']);
+}
+elseif ($route == 'deletestudentResult' && isset($_GET['id'])) {
+	controllerStudent::deleteStudentResult($_GET['id']);
+}
 else{
 	Controller::error404();
 }

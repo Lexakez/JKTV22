@@ -59,6 +59,12 @@ class Model {
         $item = $db->getAll($query);
         return $item;
     }
+    public static function getSearch($text) {
+        $sql = "SELECT posts.* FROM posts WHERE posts.title LIKE '%".$text."%' OR posts.description LIKE '%".$text."%' ORDER BY posts.date DESC;";
+        $database = new database();
+        $rows = $database->getAll($sql);
+        return $rows;
+    }
 	
 }//END CLASS
 ?>
