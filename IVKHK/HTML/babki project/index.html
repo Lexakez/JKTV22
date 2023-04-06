@@ -1,28 +1,64 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Babki</title>
+        <title>Babki.net</title>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
     <body>
-        <div class="wrapper">
-            <header>
-                <div class="div_header">
-                    <div class="logo_div"><img class="logo_image" src="images/logo.png"><span class="logo_name">Babki</span></div>
-                    
-                    <a></a><div class="nav_btn"><span class="nav">О нас</span></div></a>
-                    <a></a><div class="nav_btn"><span class="nav">Подробнее</span></div></a>
-                    <a></a><div class="nav_btn"><span class="nav">Контакты</span></div></a>
-                    <a><div class="btn_write"><span>НАПИСАТЬ</span></div></a>
+        <header>
+            <script src="script.js"></script>
+            <div class="div_header">
+                <div class="logo_div">
+                    <a><img class="logo_image" onclick="fallDown(this)" src="images/logo.png"></a>
+                    <a href="#"><span class="logo_name">Babki</span></a>
                 </div>
-            </header>
+                
+                <a href="#about_us"><div class="nav_btn" onclick="clickButton(this)"><span>О нас</span></div></a>
+                <a href="#offer"><div class="nav_btn" onclick="clickButton(this)"><span>Подробнее</span></div></a>
+                <a href="#"><div class="nav_btn" onclick="clickButton(this)"><span>Контакты</span></div></a>
+                <a href="#"><div class="btn_write" onclick="clickButton(this)"><span>НАПИСАТЬ</span></div></a>
+            </div>
+        </header>
+        <div class="page">
             <main>
-
+                <div class="screen">
+                    <div class="main_content">
+                        <div class="slogan_div">
+                            <h1 class="slogan">Интересы не стареют</h2>
+                            <p class="pod_slogan">Кружки по интересам 60+</p>
+                            <a href="#offer"><div class="btn_write" onclick="clickButton(this)"><span>Подробнее</span></div></a>
+                    </div>
+                    </div>
+                    <div class="main_content_2" id="offer">
+                        <div class="main_content_text">
+                            <h2 class="offer" >До конца весны - кружки по интересам со скидкой равной вашему возрасту до 90 лет включительно</h2>
+                            <h2 class="pod_offer">Услуги и преимущества </h2>
+                            <p class="offer_content">Приходите или приводите своих родителей, бабушек и дедушек, и записывайтесь в кружки по интересам, в программе множество различных занятий, от искусства и рукоделия, до занятия спортом и гимнастикой, которые помогут не заскучать и узнать что-то новое.</p>
+                            <a href="#"><div class="btn_write" onclick="clickButton(this)"><span>Подробнее</span></div></a>
+                        </div>
+                        <div class="img_style">
+                            <img src="images/content_picture.png">
+                        </div>
+                    </div>
+                </div>
             </main>
-            <footer>
+        </div>
+        <div class="page_2" id="about_us">
+            <main>
+                <div class="about_us_div">
+                    <div class="about_us"><h1>О нас</h1></div>
+                </div>
+            </main>
+        </div>
+        <div class="page_3">
 
-            </footer>
+        </div>
+        <div class="page_4">
+
+        </div>
+        <div class="page_5">
+
         </div>
     </body>
 </html>
