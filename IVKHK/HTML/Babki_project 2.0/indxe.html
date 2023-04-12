@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Babki.net</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <script src="script.js"></script>
+            <div class="div_header">
+                <div class="logo_div">
+                    <a><img class="logo_image" onclick="fallDown(this)" src="image/logo.png"></a>
+                    <span class="logo_name">Babki</span>
+                </div>
+                
+                <a href="#about_us"><div class="nav_btn" onclick="clickButton(this)"><span>О нас</span></div></a>
+                <a href="#offer"><div class="nav_btn" onclick="clickButton(this)"><span>Подробнее</span></div></a>
+                <a href="#"><div class="nav_btn" onclick="clickButton(this)"><span>Контакты</span></div></a>
+                <a href="#form"><div class="btn_write" onclick="clickButton(this)"><span>НАПИСАТЬ</span></div></a>
+            </div>
+        </header>
+        <main>
+            <!-- Первая страница -->
+            <div class="page_1">
+                <div class="page_1_fh">
+                    <div class="page_1_div">
+                        <h1>Интересы не стареют</h1>
+                        <h2>Кружки по интересам 60+</h2>
+                        <a class="btn" href="#" onclick="clickButton(this)" style="margin-top:5%;">Записаться</a>
+                    </div>
+                </div>
+                <div class="page_1_sh">
+                    <div class="page_1_div2">
+                        <h2>До конца весны - кружки по интересам со скидкой равной вашему возрасту до 90 лет включительно</h2>
+                        <a class="btn" href="#" onclick="clickButton(this)" style="margin-top:3%;">О скидке</a>
+                        <h2 style="margin-top: 3%;">Услуги и преимущества</h2>
+                        <p>Приходите или приводите своих родителей, бабушек и дедушек, и записывайтесь в кружки по интересам, в программе множество различных занятий, от искусства и рукоделия, до занятия спортом и гимнастикой, которые помогут не заскучать и узнать что-то новое.</p>
+                        <a class="btn" href="#" onclick="clickButton(this)" style="margin-top:2%;">Подробнее</a>
+                    </div>
+                    <img src="image/content_picture.png" class="content_image">
+                </div>
+            </div>
+            <!-- Вторая страница -->
+            <div class="page_2">
+                <div class="page_2_fh">
+                    <div class="about_us_div">
+                        <div class="about_us">
+                            <h1>О нас</h1>
+                        </div>
+                        <div class="about_us_text">
+                            <p>
+                                Кружок по интересам 60+ с услугами проживания и присмотра - это замечательный способ для пожилых людей наслаждаться жизнью и оставаться активными в своих золотых годах. Уютное жилье: Кружок предоставляет уютное жилье, которое полностью соответствует потребностям пожилых людей, включая доступность, безопасность и комфорт. Жилье может быть как комнатой, так и полностью оборудованным апартаментом, в зависимости от потребностей и предпочтений жильцов. Присмотр и забота: Жильцы кружка могут быть уверены, что они будут постоянно под присмотром. Обслуживающий персонал круглосуточно находится на месте, чтобы помочь с любыми вопросами
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="page_2_sh">
+                    <div class="price_div">
+                        <div class="price">
+                            <h1>Цены услуг</h1>
+                        </div>
+                        <div class="price_list">
+                            <ul>
+                                <li>Полный пакет услуг с проживанием на неделю 69€ в день</li>
+                                <li>Запись на кружки по интерасам без проживания 9€ в день</li>
+                                <li>При сьеме номера более чем на месяц занятия в кружках бесплатно</li>
+                                <li>Мы также предоставляем бесплатную доставку лекарств и при необходимости можем организовать транспортные услуги для наших жителей.</li>
+                            </ul>
+                            <img src="image/price_picture.png" style="height: 60%;">
+                        </div>
+                    </div>
+                    <div class="offer">
+                        <p>До конца весны - кружки по интересам со скидкой в процент равный вашему возрасту до 90 лет включительно, скидка распространяется на все услуги нашего центра, кроме медицинской помощи</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Третья страница -->
+            <div class="page_3">
+                <div class="page_3_mh">
+                    <div class="club_div">
+                        <div class="club">
+                            <h2>Клубы по интересам:</h2>
+                        </div>
+                    </div>
+                    <div class="club_list">
+                        <ol>
+                            <li>Рукоделие: вязание, вышивка, шитье, макраме.<a href="https://ru.wikipedia.org/wiki/%D0%A0%D1%83%D0%BA%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D0%B5">Подробнее...</a></li>
+                            <li>Художественная живопись: можно заняться рисованием, акварелью, масляными красками и т.д.<a href="https://ru.wikipedia.org/wiki/%D0%96%D0%B8%D0%B2%D0%BE%D0%BF%D0%B8%D1%81%D1%8C">Подробнее...</a></li>
+                            <li>Фотография: изучение техники фотосъемки, создание фотоальбомов и презентаций.<a href="https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F">Подробнее...</a></li>
+                            <li>Музыка: игра на музыкальных инструментах, пение в хоре, создание музыкальных композиций.<a href="https://ru.wikipedia.org/wiki/%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0">Подробнее...</a></li>
+                            <li>Литература: чтение и обсуждение книг, писательские мастер-классы, написание собственных произведений.<a href="https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0">Подробнее...</a></li>
+                            <li>Изучение языков: занятия английским, испанским, французским и т.д.<a href="https://ru.wikipedia.org/wiki/%D0%A3%D1%81%D0%B2%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B2%D1%82%D0%BE%D1%80%D0%BE%D0%B3%D0%BE_%D1%8F%D0%B7%D1%8B%D0%BA%D0%B0">Подробнее...</a></li>
+                            <li>Кулинария: участие в кулинарных мастер-классах, изучение новых рецептов, создание своих собственных блюд.<a href="https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%BB%D0%B8%D0%BD%D0%B0%D1%80%D0%B8%D1%8F">Подробнее...</a></li>
+                            <li>Садоводство: выращивание овощей, фруктов и цветов, уход за растениями.<a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%B4%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE">Подробнее...</a></li>
+                            <li>Йога и медитация: занятия йогой, медитацией и другими практиками для поддержания здоровья и хорошего настроения.<a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D0%B8%D1%82%D0%B0%D1%86%D0%B8%D1%8F">Подробнее...</a></li>
+                        </ol>
+                        <img src="image/guitar.png" class="guitar_img">
+                    </div>
+                </div>
+            </div>
+            <!-- Четвертая страница -->
+            <div class="page_4">
+                <div class="page_4_mh">
+                    <div class="registr_div">
+                        <div class="registr">
+                            <h2>Форма на регистрацию</h2>
+                        </div>
+                    </div>
+                    <div class="registr_form" id="form">
+                        <div class="registr_text">
+                            <h3>Регистрация</h3>
+                        </div>
+                        <div class="style_for_form">
+                            <form name="registr" action="" method="get">
+                                <ul style="list-style-type: none;">
+                                    <li><span>Ваше имя</span><input></li>
+                                    <li><span>Ваша почта</span><input></li>
+                                    <li><span>Тел. Номер</span><input></li>
+                                </ul>
+                            </form>
+                        </div>
+                        <a>Отправить</a>
+                    </div>
+                        
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <!-- Пятая страница -->
+            <div>
+                
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
