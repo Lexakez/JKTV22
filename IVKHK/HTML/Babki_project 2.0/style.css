@@ -498,3 +498,98 @@ main{
     align-items: center;
 }
 
+.button{
+    margin-left: 5%;
+    margin-top: 5%;
+    background: #C75E63;
+}
+
+.phone_num{
+    /* border: 1px solid black; */
+    margin-top: -10%;
+    width: 100%;
+    height: 50px;
+}
+
+.phone_div{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #154059;
+    border-radius: 0px 30px 30px 0px;
+    margin-left: -13%;
+}
+
+.phone_div p{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    color: #E9E3D9;
+    margin: 0px;
+    margin-right: 2%;
+}
+
+.page_5{
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(image/background_page.png);
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    align-items: center;
+}
+
+.page_5_mh{
+    display:flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 80%;
+    height: 100%;
+}
+
+.team{
+    width: 100%;
+    display: flex;
+    /* border: 1px solid black; */
+    margin-top: 8%;
+}
+
+.team_div{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #154059;
+    border-radius: 0px 30px 30px 0px;
+    width: 80%;
+    height: 37%;
+    margin-left: -13%;
+}
+
+.team_div h2{
+    margin: 0;
+    margin-right: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    color: #E9E3D9;
+}
+
+.team_img{
+    margin-top: -10%;
+    margin-left: -10%;
+}
+
+.employee_m_div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    margin-top: -10%;
+    border: 1px solid black;
+}
+
+.employee_div{
+    margin-top: 5%;
+    width: 60%;
+    border: 1px solid black;
+}
