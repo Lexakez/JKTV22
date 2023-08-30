@@ -1,0 +1,14 @@
+D:\JKTV222023\C#\HelloApp\bin\Debug\netcoreapp3.1\HelloApp.exe
+D:\JKTV222023\C#\HelloApp\bin\Debug\netcoreapp3.1\HelloApp.deps.json
+D:\JKTV222023\C#\HelloApp\bin\Debug\netcoreapp3.1\HelloApp.runtimeconfig.json
+D:\JKTV222023\C#\HelloApp\bin\Debug\netcoreapp3.1\HelloApp.runtimeconfig.dev.json
+D:\JKTV222023\C#\HelloApp\bin\Debug\netcoreapp3.1\HelloApp.dll
+D:\JKTV222023\C#\HelloApp\bin\Debug\netcoreapp3.1\HelloApp.pdb
+D:\JKTV222023\C#\HelloApp\obj\Debug\netcoreapp3.1\HelloApp.csproj.AssemblyReference.cache
+D:\JKTV222023\C#\HelloApp\obj\Debug\netcoreapp3.1\HelloApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\JKTV222023\C#\HelloApp\obj\Debug\netcoreapp3.1\HelloApp.AssemblyInfoInputs.cache
+D:\JKTV222023\C#\HelloApp\obj\Debug\netcoreapp3.1\HelloApp.AssemblyInfo.cs
+D:\JKTV222023\C#\HelloApp\obj\Debug\netcoreapp3.1\HelloApp.csproj.CoreCompileInputs.cache
+D:\JKTV222023\C#\HelloApp\obj\Debug\netcoreapp3.1\HelloApp.dll
+D:\JKTV222023\C#\HelloApp\obj\Debug\netcoreapp3.1\HelloApp.pdb
+D:\JKTV222023\C#\HelloApp\obj\Debug\netcoreapp3.1\HelloApp.genruntimeconfig.cache
