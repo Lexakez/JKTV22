@@ -1,0 +1,15 @@
+D:\JKTV22 2023\ListStudentLangApp\bin\Debug\net6.0\ListStudentLangApp.exe
+D:\JKTV22 2023\ListStudentLangApp\bin\Debug\net6.0\ListStudentLangApp.deps.json
+D:\JKTV22 2023\ListStudentLangApp\bin\Debug\net6.0\ListStudentLangApp.runtimeconfig.json
+D:\JKTV22 2023\ListStudentLangApp\bin\Debug\net6.0\ListStudentLangApp.dll
+D:\JKTV22 2023\ListStudentLangApp\bin\Debug\net6.0\ListStudentLangApp.pdb
+D:\JKTV22 2023\ListStudentLangApp\obj\Debug\net6.0\ListStudentLangApp.csproj.AssemblyReference.cache
+D:\JKTV22 2023\ListStudentLangApp\obj\Debug\net6.0\ListStudentLangApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\JKTV22 2023\ListStudentLangApp\obj\Debug\net6.0\ListStudentLangApp.AssemblyInfoInputs.cache
+D:\JKTV22 2023\ListStudentLangApp\obj\Debug\net6.0\ListStudentLangApp.AssemblyInfo.cs
+D:\JKTV22 2023\ListStudentLangApp\obj\Debug\net6.0\ListStudentLangApp.csproj.CoreCompileInputs.cache
+D:\JKTV22 2023\ListStudentLangApp\obj\Debug\net6.0\ListStudentLangApp.dll
+D:\JKTV22 2023\ListStudentLangApp\obj\Debug\net6.0\refint\ListStudentLangApp.dll
+D:\JKTV22 2023\ListStudentLangApp\obj\Debug\net6.0\ListStudentLangApp.pdb
+D:\JKTV22 2023\ListStudentLangApp\obj\Debug\net6.0\ListStudentLangApp.genruntimeconfig.cache
+D:\JKTV22 2023\ListStudentLangApp\obj\Debug\net6.0\ref\ListStudentLangApp.dll

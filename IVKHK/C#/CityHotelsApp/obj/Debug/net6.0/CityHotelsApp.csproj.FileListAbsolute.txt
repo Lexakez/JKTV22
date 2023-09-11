@@ -1,0 +1,15 @@
+D:\JKTV22 2023\CityHotelsApp\bin\Debug\net6.0\CityHotelsApp.exe
+D:\JKTV22 2023\CityHotelsApp\bin\Debug\net6.0\CityHotelsApp.deps.json
+D:\JKTV22 2023\CityHotelsApp\bin\Debug\net6.0\CityHotelsApp.runtimeconfig.json
+D:\JKTV22 2023\CityHotelsApp\bin\Debug\net6.0\CityHotelsApp.dll
+D:\JKTV22 2023\CityHotelsApp\bin\Debug\net6.0\CityHotelsApp.pdb
+D:\JKTV22 2023\CityHotelsApp\obj\Debug\net6.0\CityHotelsApp.csproj.AssemblyReference.cache
+D:\JKTV22 2023\CityHotelsApp\obj\Debug\net6.0\CityHotelsApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\JKTV22 2023\CityHotelsApp\obj\Debug\net6.0\CityHotelsApp.AssemblyInfoInputs.cache
+D:\JKTV22 2023\CityHotelsApp\obj\Debug\net6.0\CityHotelsApp.AssemblyInfo.cs
+D:\JKTV22 2023\CityHotelsApp\obj\Debug\net6.0\CityHotelsApp.csproj.CoreCompileInputs.cache
+D:\JKTV22 2023\CityHotelsApp\obj\Debug\net6.0\CityHotelsApp.dll
+D:\JKTV22 2023\CityHotelsApp\obj\Debug\net6.0\refint\CityHotelsApp.dll
+D:\JKTV22 2023\CityHotelsApp\obj\Debug\net6.0\CityHotelsApp.pdb
+D:\JKTV22 2023\CityHotelsApp\obj\Debug\net6.0\CityHotelsApp.genruntimeconfig.cache
+D:\JKTV22 2023\CityHotelsApp\obj\Debug\net6.0\ref\CityHotelsApp.dll
