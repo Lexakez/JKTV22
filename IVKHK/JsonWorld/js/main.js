@@ -9,3 +9,10 @@ worldApp.controller("countryCtrl", function ($scope, $http){
         //console.log($scope.countryList);
     })
 })
+
+worldApp.controller("cityCtrl",function ($scope, $http){
+    $http.get('js/databaseCity.php')
+    .then(function (response){$scope.cityList= response.data.records;
+        console.log($scope.cityList);
+    });
+})
