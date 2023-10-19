@@ -1,0 +1,19 @@
+[
+{"Code":"BEL","Name":"Belgium","Continent":"Europe","Region":"Western Europe","IndepYear":"1830","Population":"10239000","GovernmentForm":"Constitutional Monarchy, Federation","HeadOfState":"Albert II","Code2":"BE"},
+{"Code":"GBR","Name":"United Kingdom","Continent":"Europe","Region":"British Islands","IndepYear":"1066","Population":"59623400","GovernmentForm":"Constitutional Monarchy","HeadOfState":"Elisabeth II","Code2":"GB"},
+{"Code":"BGR","Name":"Bulgaria","Continent":"Europe","Region":"Eastern Europe","IndepYear":"1908","Population":"8190900","GovernmentForm":"Republic","HeadOfState":"Petar Stojanov","Code2":"BG"},
+{"Code":"ESP","Name":"Spain","Continent":"Europe","Region":"Southern Europe","IndepYear":"1492","Population":"39441700","GovernmentForm":"Constitutional Monarchy","HeadOfState":"Juan Carlos I","Code2":"ES"},
+{"Code":"ITA","Name":"Italy","Continent":"Europe","Region":"Southern Europe","IndepYear":"1861","Population":"57680000","GovernmentForm":"Republic","HeadOfState":"Carlo Azeglio Ciampi","Code2":"IT"},
+{"Code":"JPN","Name":"Japan","Continent":"Asia","Region":"Eastern Asia","IndepYear":"-660","Population":"126714000","GovernmentForm":"Constitutional Monarchy","HeadOfState":"Akihito","Code2":"JP"},
+{"Code":"CAN","Name":"Canada","Continent":"North America","Region":"North America","IndepYear":"1867","Population":"31147000","GovernmentForm":"Constitutional Monarchy, Federation","HeadOfState":"Elisabeth II","Code2":"CA"},
+{"Code":"CUB","Name":"Cuba","Continent":"North America","Region":"Caribbean","IndepYear":"1902","Population":"11201000","GovernmentForm":"Socialistic Republic","HeadOfState":"Fidel Castro Ruz","Code2":"CU"},
+{"Code":"LTU","Name":"Lithuania","Continent":"Europe","Region":"Baltic Countries","IndepYear":"1991","Population":"3698500","GovernmentForm":"Republic","HeadOfState":"Valdas Adamkus","Code2":"LT"},
+{"Code":"LVA","Name":"Latvia","Continent":"Europe","Region":"Baltic Countries","IndepYear":"1991","Population":"2424200","GovernmentForm":"Republic","HeadOfState":"Vaira Vike-Freiberga","Code2":"LV"},
+{"Code":"NOR","Name":"Norway","Continent":"Europe","Region":"Nordic Countries","IndepYear":"1905","Population":"4478500","GovernmentForm":"Constitutional Monarchy","HeadOfState":"Harald V","Code2":"NO"},
+{"Code":"FRA","Name":"France","Continent":"Europe","Region":"Western Europe","IndepYear":"843","Population":"59225700","GovernmentForm":"Republic","HeadOfState":"Jacques Chirac","Code2":"FR"},
+{"Code":"FIN","Name":"Finland","Continent":"Europe","Region":"Nordic Countries","IndepYear":"1917","Population":"5171300","GovernmentForm":"Republic","HeadOfState":"Tarja Halonen","Code2":"FI"},
+{"Code":"EST","Name":"Estonia","Continent":"Europe","Region":"Baltic Countries","IndepYear":"1991","Population":"1439200","GovernmentForm":"Republic","HeadOfState":"Lennart Meri","Code2":"EE"},
+{"Code":"USA","Name":"United States","Continent":"North America","Region":"North America","IndepYear":"1776","Population":"278357000","GovernmentForm":"Federal Republic","HeadOfState":"George W. Bush","Code2":"US"},
+{"Code":"ATA","Name":"Antarctica","Continent":"Antarctica","Region":"Antarctica","IndepYear":null,"Population":"0","GovernmentForm":"Co-administrated","HeadOfState":null,"Code2":"AQ"}
+]
+
